@@ -1,0 +1,12 @@
+replicaCount: 1
+
+opa:
+  image:
+    repository: openpolicyagent/opa
+    tag: "0.68.0"
+  clientId: test
+
+app:
+  gitUrl: https://github.com/yortch/opa-demo.git
+  gitRef: main
+  gitPath: iac/helm/opa-chart
