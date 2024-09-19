@@ -80,5 +80,5 @@ This repo contains instructions on how to setup [ArgoCD](https://argo-cd.readthe
 
     ```bash
     helm upgrade -i opa-gitops gitops-app-project -f ../helm/values/dev/values.yaml \
-    --set "app.namespace=$NAMESPACE"
+    --set "app.namespace=$NAMESPACE" -n $NAMESPACE
     ```

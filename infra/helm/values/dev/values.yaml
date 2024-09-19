@@ -7,6 +7,6 @@ opa:
   clientId: test
 
 app:
-  gitUrl: https://github.com/yortch/opa-demo.git
+  gitUrl: https://github.com/yortch/aks-argocd.git
   gitRef: main
-  gitPath: iac/helm/opa-chart
+  gitPath: infra/helm/opa-chart
